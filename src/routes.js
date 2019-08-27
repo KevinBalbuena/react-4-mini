@@ -8,5 +8,6 @@ export default (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route path="/topics" component={TopicList} />
+    <Route path="/post/:id" component={Post} />
   </Switch>
 );
